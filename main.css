@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: black;
+    transition: color 0.3s;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.top-half  {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: blue;
+    color: white;
+    background-image: url('https://examscenter.ru/media/__processed__/41c/top-5-knig-ne-iz-shkolnoy-programmy-kotorye-nuzhno-prochitat-vypuskniku-cce7a22ed13a.jpeg'); 
+    background-size: cover; 
+    background-position: center;
+    font-size: 30px;
+}
+
+.lowest-half {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: grey;
+    color: white;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f4/Lupa.na.encyklopedii.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    font-size: 30px;
+}
+
+
+.bottom-half {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: blueviolet;
+    color: white;
+    background-image: url('https://static.tildacdn.com/tild3136-3661-4262-b632-626664633331/10_____.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.container2 {
+    margin: 100px 25%;
+    width: 50%;
+    height: 500px;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+body2 {
+    background-image: url('https://www.printdaily.ru/images/SpecProjects/2019_Canon_DigBooks/Samizdat.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.cont1.p1 {
+    text-align: center;
+}
+
